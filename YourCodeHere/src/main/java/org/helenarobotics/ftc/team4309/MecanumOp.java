@@ -13,12 +13,13 @@ public class MecanumOp extends OpMode {
 //    private final DcMotorController leftCtrl;
 //    private final DcMotorController rightCtrl;
 
-    private final DcMotor leftFront;
-    private final DcMotor leftRear;
-    private final DcMotor rightFront;
-    private final DcMotor rightRear;
+    private DcMotor leftFront;
+    private DcMotor leftRear;
+    private DcMotor rightFront;
+    private DcMotor rightRear;
 
-    public MecanumOp() {
+    @Override
+        public void init() {
         //
         // Connect the motor controllers
         //
