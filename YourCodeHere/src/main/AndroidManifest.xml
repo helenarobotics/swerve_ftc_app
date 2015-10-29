@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="org.usfirst.ftc.exampleteam.yourcodehere"
+    package="org.helenarobotics.ftc.team4309"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <application/>
 </manifest>
